@@ -15,7 +15,4 @@
 .DS_Store
 Thumbs.db
 # On autorise les fichiers de certification dans le dossier dédié
-!certifications/*.pdf
-!certifications/*.png
-!certifications/*.jpg
-!certifications/*.jpeg
+!certifications/
