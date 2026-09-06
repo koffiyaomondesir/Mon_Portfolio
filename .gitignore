@@ -1,0 +1,16 @@
+# Fichiers de captures d'écran (lourds et inutiles)
+*.png
+*.jpg
+*.jpeg
+
+# Fichiers PDF (certificats, CV) - À ignorer car ce sont des documents perso
+*.pdf
+*.docx
+
+# Fichiers compressés
+*.zip
+*.rar
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db

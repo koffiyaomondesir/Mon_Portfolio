@@ -1,0 +1,453 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.hero .subtitle {
+    font-size: 1.25rem;
+    color: #a0a0b0;
+    line-height: 1.8;
+}
+
+/* Section Styles */
+.section {
+    padding: 4rem 0;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-badge {
+    background-color: #0f3460;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #fff;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.skill-badge:hover {
+    transform: translateY(-3px);
+    background-color: #e94560;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #16213e;
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.project-card p {
+    color: #a0a0b0;
+}
+
+/* Certifications Section */
+#certifications p {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #888;
+}
+
+/* Contact Section */
+.btn-primary {
+    display: inline-block;
+    background-color: #e94560;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ff6b9d;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: 3rem 0;
+    }
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+/*.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+}*/
+
+.cert-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-4px);
+    border-color: #00ffc8;
+}
+
+.cert-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.cert-card p {
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    margin: 12px 0;
+    min-height: 40px;
+}
+
+.cert-card a {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #00ffc8;
+    color: #0a0a0a;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.cert-card a:hover {
+    background: #00d4a8;
+}
+
+.project-links {
+    margin-top: 1rem;
+}
+
+.btn-github {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00ffc8;
+    border-radius: 6px;
+    color: #00ffc8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-github:hover {
+    background: #00ffc8;
+    color: #000;
+}
+
+.status-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.15rem 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 12px;
+    background: rgba(255, 176, 32, 0.15);
+    color: #ffb020;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* --- Hero avec photo et CTA --- */
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1 1 500px;
+}
+
+.hero-photo {
+    flex: 0 0 220px;
+}
+
+.hero-photo img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ffc8;
+    box-shadow: 0 0 30px rgba(0, 255, 200, 0.2);
+}
+
+.hero-cta {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-cta .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 1.4rem;
+    border: 1px solid #00ffc8;
+    border-radius: 6px;
+    color: #00ffc8;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+
+.hero-cta .btn-outline:hover {
+    background: #00ffc8;
+    color: #000;
+}
+
+@media (max-width: 640px) {
+    .hero-inner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+/* --- Liste "À propos" --- */
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 2rem;
+}
+
+.about-list li {
+    padding-left: 1.2rem;
+    position: relative;
+    margin-bottom: 0.6rem;
+    color: #cfd8e3;
+}
+
+.about-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #00ffc8;
+}
+
+/* --- Boutons GitHub sur les cartes projet --- */
+.project-links {
+    margin-top: 1rem;
+}
+
+.btn-github {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00ffc8;
+    border-radius: 6px;
+    color: #00ffc8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-github:hover {
+    background: #00ffc8;
+    color: #000;
+}
+
+/* --- Badge "En cours" --- */
+.status-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.15rem 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 12px;
+    background: rgba(255, 176, 32, 0.15);
+    color: #ffb020;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.contact-intro {
+    color: #cfd8e3;
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+}
+
+.contact-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    transition: transform 0.15s, opacity 0.15s;
+}
+
+.btn-contact:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn-contact-github {
+    background: #24292e;
+    border: 1px solid #444;
+}
+
+.btn-contact-linkedin {
+    background: #0a66c2;
+}
+
+.btn-contact-whatsapp {
+    background: #25d366;
+    color: #052e1b;
+}
+
+.eyebrow {
+    display: inline-block;
+    color: #00ffc8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.6rem;
+}
+
+.hero-intro {
+    font-style: italic;
+    color: #8fa1b8;
+    margin-bottom: 0.8rem;
+}
+
+.subtitle {
+    max-width: 620px;
+    line-height: 1.7;
+}
+
+.subtitle strong {
+    color: #00ffc8;
+    font-weight: 600;
+}
+
+.about-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin: 1.5rem 0;
+}
+
+.about-col h3 {
+    color: #00ffc8;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+}
+
+@media (max-width: 640px) {
+    .about-columns {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+.btn-contact-email {
+    background: #00ffc8;
+    color: #061a15;
+}
+
+.btn-contact-phone {
+    background: #6c5ce7;
+}

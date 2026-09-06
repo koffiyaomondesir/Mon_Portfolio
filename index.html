@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Étudiant Licence 3 Système informatique et Génie Logiciel à ESATIC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1>Koffi Yao Mondesir — Portfolio</h1>
+                <p class="subtitle">Étudiant en Licence 3 Systèmes Informatiques et Génie Logiciel à ESATIC,
+                    passionné par le développement logiciel et la gestion de bases de données. Je conçois des solutions
+                    concrètes — du développement web à l'intelligence artificielle, aux technologies cloud et aux
+                    réseaux — avec un intérêt
+                    particulier pour les outils souverains et la préservation culturelle par la technologie.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn-outline">Me contacter</a>
+                    <a href="cv-koffi-yao-mondesir.pdf" target="_blank" class="btn-outline">
+                        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"
+                            style="vertical-align:-2px;margin-right:4px;">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                        </svg>
+                        Télécharger mon CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <img src="photo-profil.jpg" alt="Koffi Yao Mondesir">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <ul class="about-list">
+                <li>Étudiant en L2 SIGL à ESATIC (Abidjan, Côte d'Ivoire)</li>
+                <li>Passionné par le développement logiciel et la gestion de bases de données</li>
+                <li>Intérêt marqué pour l'intelligence artificielle et les technologies cloud</li>
+                <li>Curieux des réseaux et services informatiques</li>
+            </ul>
+
+            <h2>Ce que je fais (et ce que j'apporte)</h2>
+            <p>En tant qu'étudiant développeur, je m'implique sur des projets à fort enjeu technique et humain :</p>
+            <ul class="about-list">
+                <li>Développement d'agents IA autonomes fonctionnant en local (LM Studio, multi-outils, intégrations
+                    GitHub/Vercel/Supabase)</li>
+                <li>Conception d'applications mobiles (Flutter, React Native,java,kotlin) intégrant l'IA</li>
+                <li>Administration et sécurisation de bases de données (PostgreSQL, Firebase, Supabase, MySQL)</li>
+                <li>Déploiement et mise en production (Django/React, Render, GitHub Pages)</li>
+                <li>Coordination technique en équipe (Git, gestion de branches, intégration continue)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Compétences</h2>
+            <div class="skills-container">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">PHP</span>
+                <span class="skill-badge">C++</span>
+                <span class="skill-badge">Python&Django</span>
+                <span class="skill-badge">Java</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">IA&Cloud</span>
+                <span class="skill-badge">Reseaux&Service</span>
+                <span class="skill-badge">Developpement Des Bases De Données</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projets</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Agent IA local</h3>
+                    <p>Un agent IA 100% local, capable d'agir, pas juste de discuter.</p>
+                    <p>Conception d'un agent IA autonome tournant entièrement en local (LM Studio + Qwen3.5-4B), sans
+                        dépendance à une API cloud payante. L'agent génère du code multi-langages, crée des fichiers et
+                        dossiers réels, publie automatiquement sur GitHub avec déploiement GitHub Pages, et interagit
+                        avec des services cloud (Vercel, Supabase, Railway) via leurs API. Architecture multi-outils
+                        pensée pour tourner sur du matériel aux ressources limitées (8 Go RAM).</p>
+                    <div class="project-links">
+                        <a href="https://github.com/koffiyaomondesir/test-agent-ia" target="_blank" class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>LangIvoire</h3>
+                    <p>Préserver une langue par la technologie.</p>
+                    <p>Application mobile Flutter dédiée à l'apprentissage du dida, une langue ivoirienne. Intègre un
+                        chatbot IA conversationnel (Djedje, propulsé par Google Gemini) pour un apprentissage
+                        interactif, avec authentification et stockage des données via Firebase/Firestore.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/koffiyaomondesir/langivoire-app" target="_blank" class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Vibeathon2026 — AGRILINK CI</h3>
+                    <p>Une marketplace agricole en économie circulaire, propulsée par l'IA.</p>
+                    <p>Application mobile (React Native / Expo + TypeScript) connectant agriculteurs, éleveurs, ménages,
+                        recycleurs et grossistes autour d'un objectif "Zéro Déchet". Marketplace géolocalisée (PostGIS)
+                        avec gestion de commandes, messagerie acheteur-vendeur, système d'avis, notifications en temps
+                        réel et analyse IA de photos de produits (Gemini). Backend Express/Node.js et base de données
+                        Supabase sécurisée par RLS PostgreSQL, développés en équipe de 5 lors d'un hackathon. Rôle :
+                        Scrum Master — coordination Git, intégration continue et gestion des branches/merges.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/kofffamly/Vibeathon2026" target="_blank" class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>ESATIC-LMS</h3>
+                    <p>Recréer Moodle pour en comprendre les rouages.</p>
+                    <p>Réimplémentation et déploiement d'une plateforme d'apprentissage inspirée de Moodle, développée
+                        avec Django et React, déployée en production sur Render. Résolution de problématiques réelles de
+                        mise en production : configuration des credentials AWS, gestion de la base de données
+                        (DATABASE_URL) et paramétrage SSL.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/degnynomaou-learner/esatic-lms" target="_blank" class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Gestion des notes</h3>
+                    <p>Outil de suivi des notes scolaires pour un meilleur contrôle académique.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/koffiyaomondesir/cotenotes-" target="_blank" class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Événementiel CI <span class="status-badge">En cours</span></h3>
+                    <p>Centraliser les événements locaux, sans jamais en manquer un.</p>
+                    <p>Plateforme web événementielle en développement, construite en PHP natif. L'objectif : permettre
+                        aux utilisateurs de découvrir les événements à venir (conférences, talks, networking) via un
+                        espace public, de s'y inscrire directement depuis la plateforme, et de recevoir un rappel
+                        automatique par email avant la date de l'événement. Projet en cours de développement.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/koffiyaomondesir/projet_langage_web" target="_blank"
+                            class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>EventGroupe <span class="status-badge">En cours</span></h3>
+                    <p>Louer plutôt qu'acheter — et transformer ce qui dort chez soi en revenu.</p>
+                    <p>Plateforme web de location de matériel événementiel et d'outillage, mettant en relation
+                        particuliers, loueurs professionnels et locataires en Côte d'Ivoire. Toute personne possédant du
+                        matériel sous-utilisé (marmites, brouettes, sonorisation, bâches, tentes de réception,
+                        outils...) peut le proposer à la location pour générer un revenu complémentaire. Catalogue
+                        filtrable par ville, catégorie et recherche, fiches produit détaillées (prix, localisation,
+                        propriétaire) et système de réservation en ligne. Développé en PHP natif avec base de données
+                        MySQL.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/koffiyaomondesir/EventGroupe" target="_blank" class="btn-github">
+                            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            Voir sur GitHub
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <p>Apply AI — Analyze Customer Reviews</p>
+                    <a href="cert-customer-reviews.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                <div class="cert-card">
+                    <p>Apply AI — Update Your Resume</p>
+                    <a href="cert-resume.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                <div class="cert-card">
+                    <p>Certificat Vibeathon 2026</p>
+                    <a href="certificat-vibeathon-2026.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                <div class="cert-card">
+                    <p>Cisco Networking Academy — Introduction à l'IA moderne</p>
+                    <a href="cert-ia-moderne.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                <div class="cert-card">
+                    <p>Cisco Networking Academy — Sensibilisation au numérique</p>
+                    <a href="cert-sensibilisation-numerique.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                <div class="cert-card">
+                    <p>Cisco Networking Academy — CCNA1 : Présentation des réseaux <span class="status-badge">93/100 Maîtrisé</span></p>
+                    <a href="cert-ccna1-reseaux.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                
+                <div class="cert-card">
+                    <p>Cisco Networking Academy — Getting Started with Cisco Packet Tracer</p>
+                    <a href="cert-packet-tracer.pdf" target="_blank">Voir le certificat</a>
+                </div>
+                <div class="cert-card">
+                    <p>Cisco Networking Academy — Introduction à la cybersécurité</p>
+                    <a href="cert-cybersecurite.pdf" target="_blank">Voir le certificat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p class="contact-intro">Une question, une opportunité, ou envie de discuter d'un projet ? N'hésitez pas à
+                me contacter.</p>
+            <div class="contact-links">
+                <a href="tel:+2250564990104" class="btn-contact btn-contact-phone">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58L3.654 1.328z" />
+                    </svg>
+                    <span>Téléphone</span>
+                </a>
+                <a href="mailto:koffiyaomondesir324@gmail.com" class="btn-contact btn-contact-email">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com/koffiyaomondesir" target="_blank" class="btn-contact btn-contact-github">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z" />
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/koffiyaomondesir" target="_blank"
+                    class="btn-contact btn-contact-linkedin">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.174-.432.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://wa.me/2250564990104" target="_blank" class="btn-contact btn-contact-whatsapp">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor">
+                        <path
+                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.472.205.84.326 1.129.418.475.152.904.129 1.246.078.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Portfolio personnel</p>
+    </footer>
+</body>
+
+</html>
