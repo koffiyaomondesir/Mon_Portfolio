@@ -2,7 +2,7 @@
 
 ## À propos de moi
 
-Je suis un étudiant en L2 SIGL à ESATIC, spécialisé en développement web et administration de bases de données.
+Je suis un étudiant en L3 SIGL à ESATIC, spécialisé en développement web et administration de bases de données.
 
 ## Compétences Techniques
 
@@ -21,8 +21,8 @@ Je suis un étudiant en L2 SIGL à ESATIC, spécialisé en développement web et
 
 ## Contact
 
-- [GitHub](https://github.com/[votre-username])
-- Email: [email@exemple.com]
+- [GitHub](https://github.com/koffiyaomondesir)
+- Email: [koffiyaomondesir324@.com]
 
 ---
 
