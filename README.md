@@ -1,4 +1,4 @@
-# Portfolio Personnel - Étudiant L2 SIGL à ESATIC
+# Portfolio Personnel - Étudiant L3 SIGL à ESATIC
 
 ## À propos de moi
 
